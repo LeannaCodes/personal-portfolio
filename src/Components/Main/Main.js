@@ -1,11 +1,15 @@
-import { Component } from 'react'
+import { Component } from 'react';
+import Header from '../Header/Header';
+import "./Main.css";
 
-export class Main extends Component {
+class Main extends Component {
   render() {
     return (
-      <div>Main</div>
+        <>
+            <Header />
+        </>
     )
   }
 }
 
-export default Main
+export default Main;
