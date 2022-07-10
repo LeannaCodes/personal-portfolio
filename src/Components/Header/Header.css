@@ -1,4 +1,14 @@
-header {
-    background-color: pink;
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&display=swap");
+
+
+.header {
     color: white;
+    background-image: url(../Images/background.jpg);
+    background-size: cover;
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+}
+
+img {
+    border-radius: 50%;
 }

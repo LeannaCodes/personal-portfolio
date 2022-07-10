@@ -1,4 +1,4 @@
-import { Animator, batch, Fade, Move, ScrollContainer, ScrollPage, Sticky, StickyIn, Zoom, ZoomIn } from 'react-scroll-motion';
+import { Animator, batch, Fade, Move, ScrollContainer, ScrollPage, Sticky, StickyIn, Zoom, ZoomIn, MoveOut } from 'react-scroll-motion';
 import './App.css';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Education from './Components/Education/Education';
@@ -14,7 +14,9 @@ function App() {
     <ScrollContainer>
       <ScrollPage page={0}>
         <div className='header'>
+          <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -200))}>
             <Header />
+          </Animator>
         </div>
      </ScrollPage>
 
