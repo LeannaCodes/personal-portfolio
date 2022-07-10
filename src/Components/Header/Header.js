@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Animator } from 'react-scroll-motion';
+import { Animator, batch, Fade, FadeIn, MoveOut, Sticky } from 'react-scroll-motion';
 import "./Header.css";
 
 
@@ -11,7 +11,7 @@ class Header extends Component {
         <header>
           
             <h1>
-            <Animator >
+            <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -200))}>
               Leanna Lucas
             </Animator>
             </h1>
