@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arima&family=Staatliches&display=swap');
+
+.about-me {
+    background-image: url(../Images/background2.png);
+    background-size: cover;
+}
+
+.about-title {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Arima', cursive;
+}
+
+.about {
+    color: white;
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+}

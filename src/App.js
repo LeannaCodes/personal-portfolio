@@ -7,12 +7,13 @@ import Education from './Components/Education/Education';
 import Header from './Components/Header/Header';
 import WorkExp from './Components/WorkExp/WorkExp';
 import { useState } from 'react';
-
 import Timeline from './Timeline';
+import EducationPt2 from './Components/Education/EducationPt2';
 
  
 /*const ZoomInScrollOut = batch(StickyIn(), ZoomIn(), FadeIn());*/
 const FadeUp = batch(Fade(), Sticky(), Move())
+const EducationPage = batch(Fade(), Move())
 
 // APP function
 
@@ -47,20 +48,25 @@ const App = () => {
      </ScrollPage>
 
      <ScrollPage page={2}>
-      <div className='none backgroundColorUI'>
-        <Animator animation={FadeUp}>
-          
-          
+      <div className='tech-ed'>
+        <Animator animation={EducationPage}>
+          <Education />
+        </Animator>
+      </div>
+     </ScrollPage>
+     <ScrollPage page={2}>
+      <div className='tech-ed'>
+        <Animator animation={EducationPage}>
+          <EducationPt2 />
         </Animator>
       </div>
      </ScrollPage>
 
      <ScrollPage page={3}>
-      <div className='education backgroundColorUI'>
-        <Animator animation={FadeUp}>
-          
+      <div className='education backgroundColorUI'>  
+        <h1>WORK EXPERIENCE</h1>
+      
           <Timeline />
-        </Animator>
       </div>
      </ScrollPage>
 
