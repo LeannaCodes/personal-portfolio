@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arima&family=Staatliches&display=swap');
+
+.education-title {
+    color:#fd79a8;
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-size: 2rem;
+  }
+  
+  .education-title2 {
+    color:#fd79a8;
+    font-family: 'Arima', cursive;
+  }
+
+  .education {
+    padding: 8rem;
+    background-color: white;
+    margin: 0;
+  }
+
+  ul {
+    line-height: 2.5rem;
+  }
