@@ -9,14 +9,10 @@ import Timeline from './Components/Timeline/Timeline.js';
 import EducationPt2 from './Components/Education/EducationPt2';
 import Timeline2 from './Components/Timeline/Timeline2';
 
-
 const FadeUp = batch(Fade(), Sticky(), Move())
 
 
-// APP function
-
 const App = () => {
-
   return (
 <>
     <ScrollContainer>

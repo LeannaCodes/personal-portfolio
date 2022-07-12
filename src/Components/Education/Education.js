@@ -18,8 +18,6 @@ class Education extends Component {
         
 
        <img className='clickhere' src={clickhere} alt='clickhere' />
-       
-
        </div>
 
        <h2 className='subtitle'>Full Stack MERN Bootcamp</h2>
