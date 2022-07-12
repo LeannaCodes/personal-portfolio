@@ -109,8 +109,8 @@
 
   .img-grp {
     display: flex;
-   flex-direction: row;
-   justify-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
    
   
   }
@@ -121,17 +121,13 @@
   }
 
   .timelinebg {
-    background-color: #fdbec5;
+    background-color: white;
     color:#fdbec5;
     text-align: center;
     font-family: 'Arima', cursive;
     font-size: 2rem;
   }
 
-  .clickme {
-    
-
-  }
-  
+ 
  
 

@@ -16,10 +16,6 @@
 
 
 
-.header, .about-me, .tech-ed, {
-  height: 100%;
-  width: 100%;
-}
 
 .tech-ed {
   scroll-behavior: smooth;
@@ -28,12 +24,31 @@
 .timeline-header {
   text-align: center;
     font-family: 'Arima', cursive;
-    font-size: 3rem;
-    color: white;
+    font-size: 2.5rem;
+    color: #FABAE5;
     text-decoration: underline;
 }
 
 .vertical-timeline-element-title {
-  color: #fbdefb;
+  color: #ff69b4;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 
+
+.vertical-timeline-element-subtitle {
+  color: #ff69b4;
+  font-size: 1.5rem;
+}
+
+.descriptions {
+  font-size: 1rem;
+  line-height: 2;
+  font: white;
+}
+
+.thankyou {
+  background-image: url(./Components/Images/thank-you.png);
+  background-size: cover;
+
+height: 100%;}

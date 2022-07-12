@@ -1,10 +1,10 @@
 
-import { Animator, batch, Fade, Move, ScrollContainer, ScrollPage, Sticky, StickyIn, Zoom, ZoomIn, MoveOut } from 'react-scroll-motion';
+import { Animator, batch, Fade, Move, ScrollContainer, ScrollPage, Sticky, MoveOut } from 'react-scroll-motion';
 import './App.css';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Education from './Components/Education/Education';
 import Header from './Components/Header/Header';
-import WorkExp from './Components/WorkExp/WorkExp';
+
 import Timeline from './Components/Timeline/Timeline.js';
 import EducationPt2 from './Components/Education/EducationPt2';
 import Timeline2 from './Components/Timeline/Timeline2';
@@ -56,9 +56,7 @@ const App = () => {
   
 
    
-      <div className='work-exp'>
-          <WorkExp />
-        </div>
+      <div className='thankyou'></div>
         </>
   
 

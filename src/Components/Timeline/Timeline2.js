@@ -10,13 +10,15 @@ const Timeline2 = () => {
  
     <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2010 - 2011"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: '#FABAE5', color: '#ff69b4' }}
+    contentArrowStyle={{ borderRight: '#FABAE5' }}
+    date="May 2022 - present"
+    iconStyle={{ background: '#FABAE5', color: '#ffffff' }}
     icon={<i className="fa fa-briefcase" />}
   >
     <h3 className="vertical-timeline-element-title">Senior Editorial Researcher</h3>
     <h4 className="vertical-timeline-element-subtitle">CMB Media, Norwich</h4>
-    <ul>
+    <ul className='descriptions'>
       <li>Building long lasting relationships with CEOs and decision making members across a wide range of companies</li>
       <li>Researching, qualifying and finding new project and sales leads</li>
       <li>Setting up and carrying out interviews with executive board members</li>
@@ -26,13 +28,15 @@ const Timeline2 = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2008 - 2010"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: '#FABAE5', color: '#ff69b4' }}
+    contentArrowStyle={{ borderRight: '#FABAE5' }}
+    date="May 2022 - present"
+    iconStyle={{ background: '#FABAE5', color: '#ffffff' }}
     icon={<i className="fa fa-briefcase" />}
   >
     <h3 className="vertical-timeline-element-title">Community Associate</h3>
     <h4 className="vertical-timeline-element-subtitle">Regus, Norwich</h4>
-    <ul>
+    <ul className='descriptions'>
       <li>Running a centre of flexible office space</li>
       <li>Daily contact for 68 businesses</li>
       <li>Manning reception for the whole centre</li>
