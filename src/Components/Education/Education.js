@@ -10,15 +10,21 @@ class Education extends Component {
     return (
       <div className='education'>
 
+ 
         <div className='img-grp'>
        <img className='tech-logo' src={tech} alt='tech' />
  
 
        <img className='arrow' src={arrow} alt='arrow' />
-        
 
-       <img className='clickhere' src={clickhere} alt='clickhere' />
        </div>
+
+       <div className='clickImage'> 
+        <a className='clickme' href="https://techeducators.co.uk/blog/leanna-lucas">
+          <img className='clickhere' src={clickhere} alt='clickhere' />
+        </a>
+      </div>
+      
 
        <h2 className='subtitle'>Full Stack MERN Bootcamp</h2>
 

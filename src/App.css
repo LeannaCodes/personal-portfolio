@@ -28,8 +28,9 @@
 .timeline-header {
   text-align: center;
     font-family: 'Arima', cursive;
-    font-size: 4rem;
+    font-size: 3rem;
     color: white;
+    text-decoration: underline;
 }
 
 .vertical-timeline-element-title {
