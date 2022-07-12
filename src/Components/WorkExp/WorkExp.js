@@ -4,7 +4,7 @@ import './WorkExp.css';
 class WorkExp extends Component {
   render() {
     return (
-      <div>
+      <div className='work-exp'>
       </div>
     )
   }

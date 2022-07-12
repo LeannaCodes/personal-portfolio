@@ -3,10 +3,11 @@ import React, { Component } from 'react'
 class EducationPt2 extends Component {
   render() {
     return (
-      <div className='education'>
+      <div className='education2'>
 
-        <h2 className='education-title2'>Concepts Covered:</h2>
-<ul>
+        <h2 className='education-titlept2'>CONCEPTS COVERED</h2>
+<ul className='list-content'>
+  <div className='list'>
   <li>Web Request-Response Cycle</li>
   <li>Stateful DOM Management with React Components</li>
   <li>Express.JS</li>
@@ -20,6 +21,9 @@ class EducationPt2 extends Component {
   <li>Authentication</li>
   <li>Deployment with cloud services like Heroku</li>
   <li>Daily Practice in Data Structure</li>
+  </div>
+
+<div className='list'>
   <li>Strings, Arrays, Objects</li>
   <li>CSS Frameworks</li>
   <li>Intermediate JavaScript</li>
@@ -32,7 +36,9 @@ class EducationPt2 extends Component {
   <li>Persistence with MongoDB</li>
   <li>Trello Project Management</li>
   <li>Auth0 Authentication</li>
+</div>
 </ul>
+
 </div>
     )
   }

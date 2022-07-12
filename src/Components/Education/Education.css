@@ -1,23 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Arima&family=Staatliches&display=swap');
 
 .education-title {
-    color:#fd79a8;
+    color:rgb(81, 136, 253);
     text-align: center;
-    font-family: 'Arima', cursive;
-    font-size: 2rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2 rem;
+    text-decoration: underline;
+    padding: 2rem;
   }
   
   .education-title2 {
-    color:#fd79a8;
-    font-family: 'Arima', cursive;
+    color: rgb(81, 136, 253);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    padding: 2rem;
   }
+
+  .education-titlept2 {
+    color: #9ADCFF;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    padding: 2rem;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: white;
+  }
+
+  
 
   .education {
-    padding: 8rem;
-    background-color: white;
+    padding: 7rem;
     margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #9ADCFF;
+    color: orange;
   }
 
+  .education2 {
+    padding: 7rem;
+    margin: 0;
+    font-family: #86C6F4;
+    background-image: url(../Images/techbackground.png);
+    background-size: cover;
+    
+  }
+
+
   ul {
-    line-height: 2.5rem;
+    line-height: 4rem;
+  }
+
+  .content {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .list-content {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .list {
+    padding: 4rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.5rem;
+  }
+
+  .tech-logo {
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .arrow {
+    width: 15%;
+    height: 15%;
+    padding: 1rem;
+    margin-right: -100px;
+    display: flex;
+    align-self: flex-end;
+    
+  }
+
+  .clickhere {
+    width: 20%;
+    height: 20%;
+    position: relative;
+    top: -80px; 
+  }
+
+  .img-grp {
+    display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   
+  
+  }
+
+  .tech-ed {
+    background-image: url(../Images/techbackground.png);
+    background-size: cover;
+  }
+
+  .timelinebg {
+    background-color: #fdbec5;
   }
