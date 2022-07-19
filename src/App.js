@@ -15,7 +15,7 @@ const FadeUp = batch(Fade(), Sticky(), Move())
 const App = () => {
   return (
 <>
-    {/* <ScrollContainer>
+    <ScrollContainer>
       <ScrollPage page={0}>
         <div className='header'>
           <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -200))}>
@@ -31,9 +31,7 @@ const App = () => {
         </Animator>
       </div>
      </ScrollPage>
-    </ScrollContainer>  */}
-<Header />
-<AboutMe />
+    </ScrollContainer> 
 
       <div className='tech-ed'>
           <Education />
