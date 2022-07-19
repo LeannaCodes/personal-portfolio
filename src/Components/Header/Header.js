@@ -6,7 +6,7 @@ import "./Header.css";
 class Header extends Component {
   render() {
     return (
-        <header>
+        <header className='header'>
           <a href='https://www.linkedin.com/in/leanna-lucas' rel='click me'>
           <img className='logo' src={logo} alt='logo' />
           </a>
