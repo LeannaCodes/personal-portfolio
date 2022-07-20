@@ -37,8 +37,6 @@ const App = () => {
           <Education />
       </div>
 
-
-  
       <div className='tech-ed2'> 
           <EducationPt2 />
       </div>
@@ -52,10 +50,6 @@ const App = () => {
         <h1 className='timeline-header'>WORK EXPERIENCE</h1>
           <Timeline2 />
       </div>
-  
-
-   
-      <div className='thankyou'></div>
         </>
   
 
