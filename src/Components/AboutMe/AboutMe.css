@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Arima&family=Staatliches&display=swap');
 
-.about-me {
-    background-color: #FABAE5;
-}
-
 .about-title {
     font-size: 2rem;
     color: white;
     font-family: 'Arima', cursive;
     text-decoration: underline;
     text-align: center;
+    margin: -4%;
 }
 
 .about {
@@ -19,24 +16,21 @@
     text-align: center;
 }
 
+
+.about-me {
+    background: #fdbec5;
+}
+
+.about-title {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Arima', cursive;
+    text-decoration: underline;
+}
 
 @media only screen and (min-width: 600px) {
-    
-} .about-me {
-    background-image: url(../Images/background2.png);
-    background-size: cover;
+    .about-me {
+        background-image: url(../Images/background2.png);
+        background-size: cover;
+    }
 }
-
-.about-title {
-    font-size: 2rem;
-    color: white;
-    font-family: 'Arima', cursive;
-    text-decoration: underline;
-}
-
-.about {
-    color: white;
-    font-family: 'Arima', cursive;
-    font-size: 20px;
-}
-

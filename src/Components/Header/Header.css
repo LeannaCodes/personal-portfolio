@@ -1,10 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Arima&family=Staatliches&display=swap');
 
 
-.header {
+.header-bg {
     color: white;
     background-image: url(../Images/background.jpg);
     background-size: cover;
+    font-family: 'Arima', cursive;
+    font-size: 2rem;
+}
+
+.logo {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+}
+
+.header-title {
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-size: 4rem;
+    color: white;
+}
+
+.header2-title {
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+.scroll {
+    width: 100px;
+    height: 100px;
+   
+}
+
+@media only screen and (min-width: 600px) {
+
+} header {
+    color: white;
     font-family: 'Arima', cursive;
     font-size: 2rem;
 }

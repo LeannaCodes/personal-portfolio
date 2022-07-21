@@ -4,11 +4,11 @@ import "./AboutMe.css";
 class AboutMe extends Component {
   render() {
     return (
-      <div className="about-me">
+      <div>
         <h2 className="about-title">ABOUT ME</h2>
         <p className="about">
           A <strong>Full Stack Software Developer</strong> with a passion for{" "}
-          <strong>web design </strong>
+          <strong>web design</strong>
           and producing solid, unique and creative user experiences and
           solutions, looking for a new opportunity in Web Development.
         </p>
