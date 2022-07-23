@@ -58,10 +58,6 @@ const App = () => {
         <Timeline2 />
       </div>
 
-  //Insert any components/html here that you want rendered thats below 1024px
-      
-      <MediaQuery query="(max-device-width: 1024px)" ></MediaQuery>
-
     </>
   );
 };
